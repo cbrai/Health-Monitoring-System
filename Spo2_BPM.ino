@@ -10,8 +10,8 @@ PulseOximeter pox;
 uint32_t tsLastReport = 0;
 
 float BPM, SpO2; 
-const char *ssid = "Believer"; //Enter your WIFI ssid
-const char *password = "61984912"; //Enter your WIFI password
+const char *ssid = "*******"; //Enter your WIFI ssid
+const char *password = "*******"; //Enter your WIFI password
 ESP8266WebServer server(80);
 void onBeatDetected()
 {
